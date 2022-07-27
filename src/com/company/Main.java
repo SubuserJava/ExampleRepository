@@ -17,6 +17,9 @@ public class Main {
 
         char convertStringToChar = enterConsole.charAt(0);
         System.out.println(convertStringToChar);
-        System.out.println();
+        System.out.println(" ");
+
+
+        System.out.println("Change");
     }
 }
