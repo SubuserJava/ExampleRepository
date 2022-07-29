@@ -2,8 +2,8 @@ package com.company;
 
 public class Example {
 
-    public static void main(String[] args) {
+    public final int AGE = 30;
 
-        System.out.println("hghdg");
+    public Example() {
     }
 }
