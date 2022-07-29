@@ -9,8 +9,9 @@ public class Main {
     public static void main(String[] args) {
 
         System.setOut(new PrintStream(System.out, true, StandardCharsets.UTF_8));
-
         Scanner console = new Scanner(System.in);
+        System.out.print("Enter anythings:\n");
+
         String enterConsole = console.nextLine();
 
         System.out.println(enterConsole);
@@ -19,5 +20,6 @@ public class Main {
         System.out.println(convertStringToChar);
         System.out.println(" ");
         System.out.println("Change");
+        console.close();
     }
 }
